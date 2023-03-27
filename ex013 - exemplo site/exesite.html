@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Site</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.452);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 0px 5px 5px 5px;
+        }
+        aside{
+            background-color: gray;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <p>Tecnologia</p>
+        </section>
+        <section class="noticia">
+            <article>
+                <h2>Smartphones</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus, quos esse illum, sint, odit nobis quod autem nam voluptates ex nesciunt sunt culpa corporis sed molestias fuga est quaerat!</p>
+                <aside>Artigo escrito pelo computador.</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ramon</p>
+    </footer>
+</body>
+</html>
