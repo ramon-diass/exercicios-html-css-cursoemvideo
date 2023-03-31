@@ -1,2 +1,1 @@
-Dados enviados!
-Saiba mais estudando PHP.
+Dados salvos.
